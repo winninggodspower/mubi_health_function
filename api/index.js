@@ -41,7 +41,7 @@ async function sendEmergencyContact(userData, healthVitals, emergencyContact) {
 
         await twilioClient.messages.create({
             body: message,
-            from: config.twilioPhoneNumber,
+            from: '+237673986209',
             to: emergencyContact,
         });
 
